@@ -1,4 +1,4 @@
 class Favorite < ApplicationRecord
   belongs_to :user
-  belong_to :topic
+  belongs_to :topic
 end
